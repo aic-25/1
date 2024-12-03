@@ -5,41 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DIY Creations</title>
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
 </head>
+    
 <body>
-
 <div class="container-fluid">
     <!-- Navigation Bar -->
     <div class="row">
         <nav class="navbar navbar-expand-md bg-dark navbar-dark col-12">
-            <a class="navbar-brand" href="#">DIY Creations</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <!-- Brand Logo -->
+            <a class="navbar-brand" href="#">
+                DIY Creations or  <img src="images/logo.jpg" alt="Logo" height="80"> 
+            </a>
+            <!-- Toggler Button for Mobile View -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Jewelry</a>
+                        <a class="nav-link" href="about_us.html">About Us</a>
+                         <p>At DIY Creations, we believe in the beauty of handmade crafts. Whether it's stunning jewelry, cozy crocheted goods, or intricate nail art, our goal is to inspire you to create and express your unique style. Join us on this creative journey!</p>
+                    </li
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbardrop" data-bs-toggle="dropdown" aria-expanded="false">DIYs</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="jewelry.html">Jewelry</a>
+                            <a class="dropdown-item" href="crocheting.html">Crocheting</a>
+                            <a class="dropdown-item" href="nails.html">Nails</a>
+                        </div>
                     </li>
+
+                    <li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Crocheting</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nails</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
+            <form class="d-flex w-50 ms-auto d-md-block" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
         </nav>
     </div>
+    <!-- Caroussel Section -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
 
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slide1.jpg" alt="Breakfast" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide2.jpg" alt="Lunch" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide3 (1).jpg" alt="Dinner" class="d-block w-100">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     <!-- Main Content -->
     <div class="row my-5">
         <div class="col-md-4">
