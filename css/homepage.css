@@ -1,7 +1,7 @@
 /* DEVELOPER: Azumi castaneda, IS117-005, Fall 2024 */
 
 .navbar {
-   border-bottom: 2px solid #bd8aa4; 
+   border-bottom: 2px solid #bd8aa4 !important; 
 }
 
 
