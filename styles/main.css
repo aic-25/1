@@ -19,6 +19,15 @@ body, html {
     margin-bottom: 150px; 
 }
 
+.carousel-inner {
+    width: 100%;   /* Ensures the carousel items stretch across */
+}
+
+.carousel-item {
+    height: 500px;  /* Adjust as needed */
+    width: 100%;    /* Ensures the carousel items take up full width */
+}
+
 .footer {
     position: fixed;
     background-color: #333;
