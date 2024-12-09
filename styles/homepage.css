@@ -55,12 +55,12 @@ body, html {
 
 .carousel-item {
     height: 50px; /* Set fixed height for the carousel item */
-    width: 100%;  /* Ensures full width of the container */
+    width: 100px;  /* Ensures full width of the container */
     overflow: hidden; /* Hides any content that exceeds the container's height */
 }
 
 .carousel-item img {
-    width: 100%;  /* Ensures the image fills the width of the container */
-    height: 100%; /* Ensures the image takes up the full height of the carousel item */
+    width: 100px;  /* Ensures the image fills the width of the container */
+    height: 100px; /* Ensures the image takes up the full height of the carousel item */
     object-fit: cover; /* Ensures the image scales correctly to fill the container without distortion */
 }
