@@ -52,3 +52,15 @@ body, html {
       font-size: 0.75rem;
       padding: 6px; 
    }
+/* Carousel Image Styling */
+.carousel-item img {
+    height: 400px;  
+    object-fit: cover;  
+    width: 100%;  
+}
+
+/* Optional: If you want the carousel container to match card styles */
+.carousel-inner {
+    border-radius: 15px;  
+    overflow: hidden;  
+}
