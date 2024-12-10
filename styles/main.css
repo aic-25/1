@@ -34,10 +34,25 @@ body, html {
 .container {
     padding-bottom: 15px; 
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .card {
+    display: flex;
+    height: 100%;
     width: 100%; /* Cards take up full width of their column */
-    margin-bottom: 20px; /* Space between cards */
+    flex-direction: column;
+    margin: 0px; /* Space between cards */
     border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.card-body {
+    margin: 0;
+    flex-grow: 1;
 }
 
 .card img {
