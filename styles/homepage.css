@@ -41,7 +41,6 @@ body, html {
     color: white; 
 }
 
-/* Remove green border if it's used */
 .card.border-success {
     border: 2px solid #bd8aa4 !important;  /* Light gray border */
 }
