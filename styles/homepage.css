@@ -77,11 +77,6 @@ body, html {
 .carousel-indicators .active {
     background-color: #bd8aa4;  /* Color for active dot */
 }
-
-.carousel-control-prev, .carousel-control-next {
+carousel-control-prev, .carousel-control-next {
     color: #bd8aa4;  /* Light color for control buttons */
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: #bd8aa4;  /* Icon background color */
 }
